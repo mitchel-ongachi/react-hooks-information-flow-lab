@@ -25,6 +25,7 @@ function ShoppingList({ items }) {
         </select>
       </div>
       <ul className="Items">
+      
         {itemsToDisplay.map((item) => (
           <Item key={item.id} name={item.name} category={item.category} />
         ))}
